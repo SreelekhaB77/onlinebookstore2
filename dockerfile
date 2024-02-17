@@ -1,7 +1,7 @@
 FROM tomcat:9
 
 
-COPY target/onlinebookstore.war  /usr/local/tomcat/webapps
+COPY .  /usr/local/tomcat/webapps
 
 EXPOSE 8080
 
